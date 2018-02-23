@@ -1,0 +1,14 @@
+<resources>
+    <!-- 带尖角的simpleDrawView的属性 -->
+    <declare-styleable name="ArrowSimpleDraweeView">
+        <attr name="aCornerRadius" format="dimension"/>
+        <attr name="arrowTop" format="dimension"/>
+        <attr name="arrowWidth" format="dimension"/>
+        <attr name="arrowHeihgt" format="dimension"/>
+        <attr name="arrowOffsety" format="dimension"/>
+        <attr name="arrowLocation" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
